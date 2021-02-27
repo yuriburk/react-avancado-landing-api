@@ -20,15 +20,19 @@
       "repeatable": false,
       "component": "page.button"
     },
-    "imageOrVideoPresentation": {
+    "image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
-        "videos"
+        "images"
       ],
       "plugin": "upload",
       "required": true
+    },
+    "sectionAboutProject": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-about-project"
     }
   }
 }
