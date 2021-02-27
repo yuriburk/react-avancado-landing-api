@@ -2,7 +2,8 @@
   "collectionName": "components_page_tech_icons",
   "info": {
     "name": "techIcons",
-    "icon": "tools"
+    "icon": "tools",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -15,7 +16,7 @@
       "plugin": "upload",
       "required": true
     },
-    "tutke": {
+    "title": {
       "type": "string",
       "required": true
     }

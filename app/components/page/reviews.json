@@ -1,24 +1,17 @@
 {
-  "collectionName": "components_page_headers",
+  "collectionName": "components_page_reviews",
   "info": {
-    "name": "header",
-    "icon": "heading",
-    "description": ""
+    "name": "reviews",
+    "icon": "star-half-alt"
   },
   "options": {},
   "attributes": {
-    "title": {
+    "name": {
       "type": "string",
       "required": true
     },
-    "description": {
+    "text": {
       "type": "text",
-      "required": true
-    },
-    "button": {
-      "type": "component",
-      "repeatable": false,
-      "component": "page.button",
       "required": true
     },
     "image": {
@@ -28,7 +21,7 @@
         "images"
       ],
       "plugin": "upload",
-      "required": true
+      "required": false
     }
   }
 }
