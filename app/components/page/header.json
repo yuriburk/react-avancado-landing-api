@@ -28,11 +28,6 @@
       ],
       "plugin": "upload",
       "required": true
-    },
-    "sectionAboutProject": {
-      "type": "component",
-      "repeatable": false,
-      "component": "page.section-about-project"
     }
   }
 }

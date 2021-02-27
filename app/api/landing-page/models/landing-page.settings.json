@@ -24,6 +24,23 @@
       "type": "component",
       "repeatable": false,
       "component": "page.header"
+    },
+    "sectionAboutProject": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-about-project",
+      "required": true
+    },
+    "sectionTech": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-tech"
+    },
+    "sectionConcepts": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-concepts",
+      "required": true
     }
   }
 }
