@@ -11,6 +11,7 @@ services:
       DATABASE_PASSWORD: strapi
     volumes:
       - ./app:/srv/app
+      - /srv/app/node_modules
     ports:
       - "1335:1337"
     depends_on:
