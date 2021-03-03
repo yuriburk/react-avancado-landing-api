@@ -27,3 +27,9 @@ Example:
 ```bash
 cat strapi.sql | docker exec -i postgres_container psql -U strapi -d strapi
 ```
+
+Run project:
+
+```bash
+docker-compose up -d
+```
