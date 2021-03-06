@@ -18,7 +18,7 @@
         "images"
       ],
       "plugin": "upload",
-      "required": true
+      "required": false
     },
     "name": {
       "type": "string",
@@ -32,11 +32,11 @@
       "type": "component",
       "repeatable": true,
       "component": "page.social-links",
-      "required": true
+      "required": false
     },
     "description": {
       "type": "text",
-      "required": true
+      "required": false
     }
   }
 }
